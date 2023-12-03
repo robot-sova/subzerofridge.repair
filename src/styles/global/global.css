@@ -1,3 +1,4 @@
+
 /*---original css--*/
 body{background-color:#000000;
   font-family: 'Open Sans',sans-serif;
@@ -31,7 +32,7 @@ body{background-color:#000000;
  src: local(''),
       url('fonts/anton/Anton-Regular.ttf') format('ttf'), /* Chrome 26+, Opera 23+, Firefox 39+ */
 }
-.lg {background-image: url(../images/lg.webp);background-size:100%; 
+.lg {background-image: url(../images/lg.webp);background-size:100%;
   background-clip: text;-webkit-background-clip:text; color:transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
@@ -39,11 +40,11 @@ body{background-color:#000000;
 h1,h2,h3{
   padding:0 0 0 0;
 }
-h1{font-family:'Ubuntu', sans-serif; text-align:center; font-weight: 900; 
-  padding:0; margin:0; 
-  font-size: 1.7em; 
+h1{font-family:'Ubuntu', sans-serif; text-align:center; font-weight: 900;
+  padding:0; margin:0;
+  font-size: 1.7em;
  background-color: rgba(10, 10, 10, 0.7);}
-h2{font-family:'Ubuntu', sans-serif; font-size:2.2em; line-height:2em; color:#fff; 
+h2{font-family:'Ubuntu', sans-serif; font-size:2.2em; line-height:2em; color:#fff;
   margin:0 0 0 40px;}
 @media (min-width: 768px)
 {
@@ -54,10 +55,10 @@ h2{font-family:'Ubuntu', sans-serif; font-size:2.2em; line-height:2em; color:#ff
 }
 #topblock{height:4em; width:100%;}
 
-.menu{max-width:350px; margin:0 auto 0 auto;}
+.menu{max-width:390px; margin:0 auto 0 auto;}
 @media (min-width: 768px)
 {
-   .menu{max-width:695px; margin:0 auto 0 auto;}
+   .menu{max-width:800x; margin:0 auto 0 auto;}
 }
 h3{font-family:'Ubuntu', sans-serif; font-size:1.7em; line-height:1.9em; color:#fff; margin:0 0 0 40px;}
 h2 a{color:var(--black);}
@@ -110,7 +111,7 @@ text-align: center;
   color:#ffffff; font-size: 20px; font-weight:900; margin:0 0 0 30px;
 }
 .tiledBackground {
-background-image: url(../images/dryer-reapir-services1.webp);
+background-image: url(../images/wolf-stove-repair-services.webp);
 background-repeat: no-repeat;
 background-size: 100%;
 max-width: 100%;
@@ -200,7 +201,7 @@ margin:30px auto 50px auto; border-radius: 30px 30px 30px 30px;}
 /*-Table*/
 .price{width:80px;padding: 0 0 0 25px;}
 .tdred{color:#f26366; border-bottom: #ffffff 2px dotted; padding:5px 0 10px 0;}
-.tdservice{padding:10px 0 0 0;}
+.tdservice{padding:10px 0 0 0; border-bottom: #ffffff 2px dotted; }
 .redfont{color:#f26366; font-weight:900;}
 .button {
 line-height: 1;
@@ -218,7 +219,7 @@ white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
 transition: background-color .3s;
-width:160px;
+width:180px;
 margin:5px;
 border:1px #ffffff solid;
 }
